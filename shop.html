@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Shop</title>
+	<style>
+		.header2{
+			background-color: #f7ad9e;
+			padding: 13px;
+			text-align: center;
+			font-size: 24px;
+			flex-shrink: 0;
+		}
+		.header1{
+			background-color: #f2beb3;		
+			padding: 3px;
+			text-align: center;
+			flex-shrink: 0;
+		}
+		html, body{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background-color: #fac8be;
+			font-family: recoleta;
+		}
+		h1{
+			text-align: center;
+			margin: 10px;
+			color: white;
+			font-size: 80px;
+		}
+		nav {
+            max-width: 9000px;
+            width:1250px;
+            margin: 0 auto;
+            padding: 0px 0;
+        }
+
+			nav ul{
+            text-align: center;
+        }
+        nav ul li{
+            display: inline-block;
+        }
+       nav ul li a{
+            padding: 14px 60px;
+            font-family: GILL SANS;
+            color: white;
+            font-size: 18px;
+            display: block;
+            background-color: #f2beb3;
+			border: 7px solid #f7ad9e;
+			border-radius: 0px;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-top: 30px;
+        }
+
+      .product1{
+      	border-radius: 20px;
+      	border: 3px solid #e5887c;
+      	background-color: #d6b5b1;
+      	font-size: 13px;
+      	color: #e5887c;
+      	width: 200px;
+      	text-align: center;
+      	margin: 20px;
+      }
+      .photo1{
+      	border-radius: 20px;
+      	height: 140px;
+      	width: 140px;
+      	border: 3px solid #e5887c;
+      	margin: 20px;
+      }
+
+      .product1 p{
+      	border-radius: 20px;
+      	color: #d6b5b1;
+      	background-color: #e5887c;
+      	margin: 20px;
+      	font-size: 15px;
+      }
+      .product2{
+      	border-radius: 20px;
+      	border: 3px solid #3b2b2f;
+      	background-color: #e3d6c9;
+      	font-size: 13px;
+      	color: #3b2b2f;
+      	width: 200px;
+      	text-align: center;
+      	margin: 20px;
+      }
+      .photo2{
+      	border-radius: 20px;
+      	height: 140px;
+      	width: 140px;
+      	border: 3px solid #3b2b2f;
+      	margin: 20px;
+      }
+
+      .product2 p{
+      	border-radius: 20px;
+      	color: #e3d6c9;
+      	background-color: #3b2b2f;
+      	margin: 20px;
+      	font-size: 15px;
+      }
+      	.product3{
+      	border-radius: 20px;
+      	border: 3px solid #ec6643;
+      	background-color: #ffc7b1;
+      	font-size: 12px;
+      	color: #ec6643;
+      	width: 200px;
+      	text-align: center;
+      	margin: 20px;
+      }
+      .photo3{
+      	border-radius: 20px;
+      	height: 140px;
+      	width: 140px;
+      	border: 3px solid #ec6643;
+      	margin: 20px;
+      }
+
+      .product3 p{
+      	border-radius: 20px;
+      	color: #ffc7b1;
+      	background-color: #ec6643;
+      	margin: 20px;
+      	font-size: 15px;
+      }
+      .product4{
+      	border-radius: 20px;
+      	border: 3px solid #008dff;
+      	background-color: #bcd6fa;
+      	font-size: 11px;
+      	color: #008dff;
+      	width: 200px;
+      	text-align: center;
+      	margin: 20px;
+      }
+      .photo4{
+      	border-radius: 20px;
+      	height: 140px;
+      	width: 140px;
+      	border: 3px solid #008dff;
+      	margin: 20px;
+      }
+
+      .product4 p{
+      	border-radius: 20px;
+      	color: #bcd6fa;
+      	background-color: #008dff;
+      	margin: 20px;
+      	font-size: 15px;
+      }
+      .product5{
+      	border-radius: 20px;
+      	border: 3px solid #d50038;
+      	background-color: #ffb7ac;
+      	font-size: 11px;
+      	color: #d50038;
+      	width: 200px;
+      	text-align: center;
+      	margin: 20px;
+      }
+      .photo5{
+      	border-radius: 20px;
+      	height: 140px;
+      	width: 140px;
+      	border: 3px solid #d50038;
+      	margin: 20px;
+      }
+
+      .product5 p{
+      	border-radius: 20px;
+      	color: #ffb7ac;
+      	background-color: #d50038;
+      	margin: 20px;
+      	font-size: 15px;
+      }
+      .product6{
+      	border-radius: 20px;
+      	border: 3px solid #b371d1;
+      	background-color: #c0aaca;
+      	font-size: 11px;
+      	color: #b371d1;
+      	width: 200px;
+      	text-align: center;
+      	margin: 20px;
+      }
+      .photo6{
+      	border-radius: 20px;
+      	height: 140px;
+      	width: 140px;
+      	border: 3px solid #b371d1;
+      	margin: 20px;
+      }
+
+      .product6 p{
+      	border-radius: 20px;
+      	color: #c0aaca;
+      	background-color: #b371d1;
+      	margin: 20px;
+      	font-size: 15px;
+      }
+      .product7{
+      	border-radius: 20px;
+      	border: 3px solid #f5b713;
+      	background-color: #fce6b9;
+      	font-size: 11px;
+      	color: #f5b713;
+      	width: 200px;
+      	text-align: center;
+      	margin: 20px;
+      }
+      .photo7{
+      	border-radius: 20px;
+      	height: 140px;
+      	width: 140px;
+      	border: 3px solid #f5b713;
+      	margin: 20px;
+      }
+
+      .product7 p{
+      	border-radius: 20px;
+      	color: #fce6b9;
+      	background-color: #f5b713;
+      	margin: 20px;
+      	font-size: 15px;
+      }
+      	.part1{
+			text-align: centers;
+		}
+		.part1 ul{
+   			 display: flex; 
+   			 justify-content: center; 
+   			 padding: 0; 
+		}
+
+		.part1 li {
+    		list-style-type: none; 
+    		margin: 0 15px; 
+    	}
+
+    	.part2{
+			text-align: centers;
+		}
+		.part2 ul{
+   			 display: flex; 
+   			 justify-content: center; 
+   			 padding: 0; 
+		}
+
+		.part2 li {
+    		list-style-type: none; 
+    		margin: 0 15px; 
+    	}
+    	.product8{
+      	border-radius: 20px;
+      	border: 3px solid #ed6e7e;
+      	background-color: #f7dfe6;
+      	font-size: 10px;
+      	color: #ed6e7e;
+      	width: 200px;
+      	text-align: center;
+      	margin: 20px;
+      }
+      .photo8{
+      	border-radius: 20px;
+      	height: 140px;
+      	width: 140px;
+      	border: 3px solid #ed6e7e;
+      	margin: 20px;
+      }
+
+      .product8 p{
+      	border-radius: 20px;
+      	color: #f7dfe6;
+      	background-color: #ed6e7e;
+      	margin: 20px;
+      	font-size: 15px;
+      }
+      
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header2">
+		</div>
+			<div class="header1">
+				<h1>sundae</h1>
+			</div>
+				<div class="header2">
+				</div>
+
+
+				<div class="main">
+					
+						<nav>
+							<ul>
+								<li><a href="index.html">HOME</a></li>
+
+								<li><a href="shop.html">SHOP</a></li>
+
+								<li><a href="about.html">ABOUT US</a></li>
+
+								<li><a href="login1.html">LOG IN</a></li>
+
+								<li><a href="signin.html">SIGN IN</a></li>
+							</ul>
+						</nav>
+				</div>
+				
+				<div class="part1">
+					<h2 style="margin: 30px; color: white;"><i>Whipped Shower Foam Singles ˏˋ•*⁀➷</i></h2>
+					<ul>
+						<li><div class="product1">
+							<img src="strawberry.webp" class="photo1">
+							<h2>Strawberries & Cream Foaming Body Wash</h2>
+							<p>$20 → ADD TO CART</p>
+						</div></li>
+
+						<li><div class="product2">
+							<img src="coconut.webp" class="photo2">
+							<h2>Coconut Cream Foaming Body Wash</h2>
+							<p>$20 → ADD TO CART</p>
+						</div></li>
+
+						<li><div class="product3">
+							<img src="orange.webp" class="photo3">
+							<h2>Orange Crush Foaming Body Wash</h2>
+							<p>$20 → ADD TO CART</p>
+						</div></li>
+
+						<li><div class="product4">
+							<img src="mint.webp" class="photo4">
+							<h2>Cool Mint Foaming Body Wash</h2>
+							<p>$20 → ADD TO CART</p>
+						</div></li>
+
+						<li><div class="product8">
+							<img src="cherry.webp" class="photo8">
+							<h2>Cherry On Top Foaming Body Wash</h2>
+							<p>$20 → ADD TO CART</p>
+						</div></li>
+					</ul>
+				</div>
+
+				<div class="part2">
+						<h2 style="margin: 30px; color: white;"><i>Best Sellers ˏˋ•*⁀➷</i></h2>
+					<ul>
+						<li><div class="product5">
+							<img src="Pomegranate.webp" class="photo5">
+							<h2>Pomegranate Fizz Foaming Body Wash</h2>
+							<p>$20 → ADD TO CART</p>
+						</div></li>
+
+						<li><div class="product6">
+							<img src="passionfruit.webp" class="photo6">
+							<h2>Passionfruit Pop Foaming Body Wash</h2>
+							<p>$20 → ADD TO CART</p>
+						</div></li>
+
+						<li><div class="product7">
+							<img src="lemon.webp" class="photo7">
+							<h2>Lemon Zest Foaming Body Wash</h2>
+							<p>$20 → ADD TO CART</p>
+						</div></li>
+					</ul>
+				</div>
+
+
+
+</body>
+</html>

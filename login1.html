@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Log In</title>
+	<style>
+		
+	.header2{
+			background-color: #f7ad9e;
+			padding: 13px;
+			text-align: center;
+			font-size: 24px;
+			flex-shrink: 0;
+		}
+		.header1{
+			background-color: #f2beb3;
+			padding: 3px;
+			text-align: center;
+			flex-shrink: 0;
+		}
+		html, body{
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background-color: #fac8be;
+			font-family: recoleta;
+		}
+		h1{
+			text-align: center;
+			margin: 10px;
+			color: white;
+			font-size: 80px;
+		}
+		.form-section{
+			padding: 10px;
+			 background-color: #f2beb3;
+			 border: 7px solid #f7ad9e;
+			 margin: 80px;
+			 color: white;
+			 text-align: center;
+		}
+		input[type="text"],
+		input[type="Password"],
+		input[type="Email"],
+		select{
+			width: 50%;
+			padding: 5px;
+			margin: 10px 0;
+			border: 1px solid white;
+			border-radius: 4px;
+			background-color: #fac8be;
+		}
+		input[type="submit"]{
+			padding: 10px 20px;
+			margin: 10px 5px;
+			background-color: #f7ad9e;
+			color: white;
+			border: 1px solid white;
+			border-radius: 4px;
+			cursor: pointer;
+			font-family: recoleta;
+		}
+
+		
+		input[type="submit"]:hover{
+			background-color: #d99182;
+		}
+		.loginpic{
+			height: 300px;
+			width: 1270px;
+			display: block;
+			margin: 0 auto;
+			border: 7px solid #f7ad9e;
+		}
+		nav {
+            max-width: 9000px;
+            width:1250px;
+            margin: 0 auto;
+            padding: 0px 0;
+        }
+
+			nav ul{
+            text-align: center;
+        }
+        nav ul li{
+            display: inline-block;
+        }
+        nav ul li a{
+            padding: 14px 60px;
+            font-family: GILL SANS;
+            color: white;
+            font-size: 18px;
+            display: block;
+            background-color: #f2beb3;
+			border: 7px solid #f7ad9e;
+			border-radius: 0px;
+			margin-left: 20px;
+			margin-right: 20px;
+			margin-top: 30px;
+        }
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="header2">
+		</div>
+			<div class="header1">
+				<h1>sundae</h1>
+			</div>
+				<div class="header2">
+				</div>
+
+				<div class="main">
+					
+						<nav>
+							<ul>
+								<li><a href="index.html">HOME</a></li>
+
+								<li><a href="shop.html">SHOP</a></li>
+
+								<li><a href="about.html">ABOUT US</a></li>
+
+								<li><a href="login1.html">LOG IN</a></li>
+
+								<li><a href="signin.html">SIGN IN</a></li>
+							</ul>
+						</nav>
+					</div>
+
+		<div class="form-section">
+			<h2>Already a member? Log in here!</h2>
+		
+						<form>
+							<label for="Name">╰┈➤ Name: </label>
+							<input type="text" id="Name" name="Name"><br><br>
+
+							<label for="email">╰┈➤ Email: </label>
+							<input type="Email" id="email" name="email"><br><br>
+
+							<label for="password">╰┈➤ Password: </label>
+							<input type="Password" id="password" name="password"><br><br>
+
+							<input type="submit" value="Log in">
+
+						</form>
+			
+		</div>
+
+		<img src="loginpic.png" class="loginpic">
+
+
+	</div>
+
+</body>
+</html>
